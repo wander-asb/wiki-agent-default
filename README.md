@@ -6,22 +6,6 @@ Este projeto é um **chatbot inteligente** que responde perguntas com base em da
 Ele é estruturado com uma arquitetura multiagente, onde um **Supervisor Agent** orquestra subagentes especializados, cada um com um domínio de conhecimento específico.
 
 ---
-
-## 🧠 Arquitetura
-
-This project is a chatbot that answers questions based on Wikipedia data using LangChain and OpenAI's GPT models.
-
-                         +---------------------+
-                          |  🧠 Supervisor Agent  |
-                          +----------+----------+
-                                     |
-          +--------------------------+----------------------------+
-          |                          |                            |
-+------------------+      +------------------+         +------------------+
-| 📚 Subagent 1     |      | 🌐 Subagent 2     |         | 🎨 Subagent 3     |
-| (Geography Expert)|      | (Wikipedia Expert)|         | (Flag Color Expert)|
-+------------------+      +------------------+         +------------------+
-
 ## 📦 Requisitos para rodar o projeto
 
 - Python 3.10+
